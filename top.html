@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameReviews - Топ игр</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><span>Game</span>Reviews</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="reviews.html">Обзоры</a></li>
+                    <li class="active"><a href="top.html">Топ игр</a></li>
+                    <li><a href="about.html">Об авторе</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h2>Топ игр 2023 года</h2>
+        </div>
+    </section>
+
+    <section class="top-games">
+        <div class="container">
+            <div class="top-list">
+                <div class="top-game">
+                    <div class="rank">1</div>
+                    <img src="images/game1.webp" alt="Elden Ring">
+                    <div class="game-info">
+                        <h3>Elden Ring</h3>
+                        <div class="rating">9.8/10</div>
+                        <p>FromSoftware</p>
+                    </div>
+                </div>
+                <div class="top-game">
+                    <div class="rank">2</div>
+                    <img src="images/game3.webp" alt="God of War: Ragnarok">
+                    <div class="game-info">
+                        <h3>God of War: Ragnarok</h3>
+                        <div class="rating">9.5/10</div>
+                        <p>Santa Monica Studio</p>
+                    </div>
+                </div>
+                <div class="top-game">
+                    <div class="rank">3</div>
+                    <img src="images/game2.webp" alt="Horizon Forbidden West">
+                    <div class="game-info">
+                        <h3>Horizon Forbidden West</h3>
+                        <div class="rating">9.0/10</div>
+                        <p>Guerrilla Games</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="categories">
+                <h3>Топ по категориям</h3>
+                <div class="category-tabs">
+                    <button class="tab-btn active" data-category="rpg">RPG</button>
+                    <button class="tab-btn" data-category="action">Экшен</button>
+                    <button class="tab-btn" data-category="strategy">Стратегии</button>
+                    <button class="tab-btn" data-category="indie">Инди</button>
+                </div>
+                <div class="category-content active" id="rpg">
+                    <ul>
+                        <li>Elden Ring <span>9.8/10</span></li>
+                        <li>The Witcher 3: Wild Hunt <span>9.7/10</span></li>
+                        <li>Divinity: Original Sin 2 <span>9.6/10</span></li>
+                    </ul>
+                </div>
+                <div class="category-content" id="action">
+                    <ul>
+                        <li>God of War: Ragnarok <span>9.5/10</span></li>
+                        <li>Red Dead Redemption 2 <span>9.7/10</span></li>
+                        <li>The Last of Us Part II <span>9.3/10</span></li>
+                    </ul>
+                </div>
+                <div class="category-content" id="strategy">
+                    <ul>
+                        <li>Civilization VI <span>9.4/10</span></li>
+                        <li>XCOM 2 <span>9.1/10</span></li>
+                        <li>Stellaris <span>9.0/10</span></li>
+                    </ul>
+                </div>
+                <div class="category-content" id="indie">
+                    <ul>
+                        <li>Hades <span>9.5/10</span></li>
+                        <li>Celeste <span>9.3/10</span></li>
+                        <li>Hollow Knight <span>9.4/10</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h3>GameReviews</h3>
+                    <p>Честные и непредвзятые обзоры видеоигр. Мы не принимаем платные отзывы и оцениваем игры объективно.</p>
+                    <div class="socials">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section links">
+                    <h3>Быстрые ссылки</h3>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="reviews.html">Обзоры</a></li>
+                        <li><a href="top.html">Топ игр</a></li>
+                        <li><a href="about.html">Об авторе</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section contact">
+                    <h3>Контакты</h3>
+                    <p><i class="fas fa-envelope"></i> mehonzev.ilya@mail.ru</p>
+                    <p><i class="fas fa-phone"></i> +7 (951) 771-5485</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2025GameReviews | Все права защищены
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
